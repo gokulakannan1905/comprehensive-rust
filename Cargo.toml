@@ -1,0 +1,28 @@
+[package]
+name = "comprehensive_rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "luhn"
+path = "src/luhn/luhn.rs"
+
+[[bin]]
+name = "routing-component"
+path = "src/routing-component/bin.rs"
+
+[[bin]]
+name = "gui"
+path = "src/gui/lib.rs"
+
+[[bin]]
+name = "external-fn"
+path = "src/external/cfunction.rs"
+
+[[bin]]
+name = "ffi"
+path = "src/ffi/ffi.rs"
